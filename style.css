@@ -100,4 +100,46 @@ ul {
     transmition: 0.3s;
  }
 
- .cta-button:
+.cta-button:houver {
+    background: var(--button-houver);
+    color: write;
+}
+
+/* rodápe */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: write;
+}
+
+footer .cta-footer {
+    color: write;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .cta-footer:houver {
+    text-decoration: underline;
+}
+
+/*responsividade*/
+@media (max-width: 780px) {
+    .conteudo {
+        .width: 90px;
+    }
+
+    nav ul {
+        displey:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
