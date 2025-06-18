@@ -69,12 +69,12 @@ img {
 
 /*seções principais*/
 .conteudo {
-    brackgroud: write;
+    background: write;
     padding: 20px;
     margin: 20px auto;
     width:80%;
     border-radius: 10px;
-    box box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* listas */
@@ -92,12 +92,12 @@ ul {
     padding: 10px;
     background: var(--segundary-color);
     color: var (--text-color);
-    text-alien: center;
+    text-align: center;
     font-weight: bold;
     border: none;
     border-radius: 5px; 
     cursor: pointer;
-    transmition: 0.3s;
+    transition: 0.3s;
  }
 
 .cta-button:houver {
@@ -126,11 +126,11 @@ footer .cta-footer:houver {
 /*responsividade*/
 @media (max-width: 780px) {
     .conteudo {
-        .width: 90px;
+        width: 90px;
     }
 
     nav ul {
-        displey:flex;
+        display:flex;
         flex-direction: column;
         align-items: center;
     }
